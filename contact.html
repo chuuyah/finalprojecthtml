@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contacts</title>
+<style>
+ 
+  header {
+    background-color: #853A9D;
+    text-align: center;
+    padding: 20px 0;
+  }
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+  }
+  
+  h1 {
+    border: 2px solid #793887;
+    background-color: #793887;
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    padding: 20px;
+  }
+  .myc {
+    text-align: center;
+    padding: 20px;
+  }
+  .myc p {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  .contact {
+    border: 4px solid black;
+    background-color: #DDBDE5;
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+  }
+  .contact p {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  .contact a img {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  .forms {
+    text-align: center;
+    margin: 20px;
+  }
+  #cf {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #DC143C;
+    text-align: center;
+  }
+  form {
+    border: 4px solid black;
+    background-color: #e6e8fa;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    max-width: 600px;
+  }
+  form label,
+  form input,
+  form textarea,
+  form input[type="submit"] {
+    display: block;
+    margin: 10px auto;
+    width: 80%;
+    max-width: 400px;
+    font-size: 1.2rem;
+  }
+  form textarea {
+    resize: vertical;
+  }
+  
+  footer {
+    background-color: #853A9D;
+    text-align: center;
+    color: white;
+    padding: 20px 0;
+  }
+</style>
+</head>
+<body background="../images/lilacsky.jpg" style="background-cover">
+
+<header>
+<nav>
+<ul>
+  <li><a href="./">Home</a></li>
+  
+</nav>
+</header>
+
+<h1>Contact Page</h1>
+<div class="myc">
+  <p>For my Facebook account, you can click the Facebook logo to see my profile.</p>
+  <a href="https://www.facebook.com/profile.php?id=100071178222813&mibextid=ZbWKwL"><img src="./images/Free Facebook.jpg" alt="Facebook Logo"></a>
+</div>
+
+<div class="contact">
+  <p>For my Gmail:<br>starskyandbutterflies15@gmail.com / starnight.sapphire15@gmail.com<br>Contact number:<br>09477897822<br>Please kindly fill out the form below ^-^</p>
+</div>
+
+<div class="forms">
+  <p id="cf">Contact Form:</p>
+  <form action="#" method="post">
+    <label for="name">Full Name (Lastname, FirstName):</label>
+    <input type="text" required>
+    <label for="email">Email:</label>
+    <input type="email" required>
+    <label for="subject">Subject[s]:</label>
+    <input type="text" required>
+    <label for="message">Message:</label>
+    <textarea rows="4" required></textarea>
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+<footer>
+  <p>Thank you for getting to know me!</p>
+</footer>
+</body>
+</html>
